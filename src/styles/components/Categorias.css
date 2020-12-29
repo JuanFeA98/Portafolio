@@ -1,0 +1,149 @@
+.Categorias {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background: rgb(35, 19, 90);
+  background: linear-gradient(
+    31deg,
+    rgba(35, 19, 90, 1) 1%,
+    rgba(17, 18, 94, 1) 12%,
+    rgba(5, 4, 46, 1) 50%,
+    rgba(2, 3, 40, 1) 100%
+  );
+}
+
+.Categorias h2 {
+  color: #f6f5f5;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.CategoryType {
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.CategoryType a {
+  text-decoration: none;
+}
+
+.Category {
+  height: 50px;
+  width: 80%;
+  text-align: center;
+  margin: 25px auto;
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.Category:hover {
+  cursor: pointer;
+  transition: all 0.5s;
+  /* box-shadow: 4px 5px 10px black; */
+  box-shadow: 0px 10px 10px black;
+}
+
+.Category img {
+  width: 50px;
+}
+
+.Category p {
+  font-weight: bold;
+  color: #f6f5f5;
+}
+
+.Frontend {
+  height: 100%;
+  background: #a21717;
+}
+
+.Frontend:hover {
+  /* background: radial-gradient(
+    circle,
+    rgba(162, 23, 23, 1) 30%,
+    rgba(129, 0, 0, 1) 100%
+  ); */
+  background: #810000;
+  cursor: pointer;
+}
+
+.Backend {
+  height: 100%;
+  background: #115e2b;
+}
+
+.Backend:hover {
+  background: #053708;
+}
+
+.FullStack {
+  height: 100%;
+  background: #e6bb20;
+}
+
+.FullStack:hover {
+  background: #ca9204;
+  /* background: #cbab00; */
+}
+
+.DataScience {
+  background: #111d5e;
+  height: 100%;
+}
+
+.DataScience:hover {
+  background: #041b4a;
+}
+
+.FrontendLink {
+  grid-area: frontend;
+}
+
+.BackendLink {
+  grid-area: backend;
+}
+
+.FullStackLink {
+  grid-area: fullstack;
+}
+
+.DSLink {
+  grid-area: datascience;
+}
+
+@media screen and (min-width: 768px) {
+  .Categorias {
+    position: absolute;
+    top: 19px;
+    height: 94vh;
+  }
+
+  .CategoryType {
+    width: 80%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 45px;
+    grid-template-areas:
+      "frontend backend datascience"
+      "fullstack fullstack datascience";
+  }
+
+  .Category {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Category img {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+}

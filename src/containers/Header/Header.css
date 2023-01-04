@@ -63,3 +63,7 @@ header{
     margin-left: 10px;
     margin-right: 10px;   
 }
+
+.header__users__icon img{
+    width: 100%;
+}

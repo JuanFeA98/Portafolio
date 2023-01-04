@@ -3,6 +3,7 @@ import React from 'react'
 import './Header.css'
 
 import Dados from '../../assets/dados.png'
+import User from '../../assets/user.png'
 
 export default function Header() {
   return (
@@ -14,7 +15,7 @@ export default function Header() {
           </div>
           <div className="header__name">
             <p>
-              Juan Martínez - <span>The Data Scientist</span>
+              Juan F. Martínez - <span>The Data Scientist</span>
             </p>
           </div>
         </a>
@@ -22,6 +23,7 @@ export default function Header() {
       <div className="header__users">
         <a href="/">
           <div className="header__users__icon">
+            <img src={User} alt="" />      
           </div>
         </a>
       </div>

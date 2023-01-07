@@ -1,0 +1,38 @@
+.container{
+    /* background: rgb(171, 178, 255); */
+    width: 90%;
+    height: calc(100vh - 140px);
+    margin: 30px auto;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.home__img{
+    /* background: #0570bd; */
+    background: linear-gradient(0deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    width: 60%;
+    height: 60%;
+    margin: 70px auto;
+    border-radius: 20px;
+    border-radius: 50%;
+}
+
+.home__img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #020024;
+}
+
+.home__nav{
+    /* background: green; */
+    width: 90%;
+    height: 40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+

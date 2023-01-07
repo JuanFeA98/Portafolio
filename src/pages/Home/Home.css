@@ -22,17 +22,38 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 5px solid #020024;
+    border: 5px solid white;
+    /* border: 5px solid #020024; */
+
 }
 
 .home__nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    margin: auto;
+    gap: 20px;
+}
+
+.home__nav__name{
+    color: white;
+    text-align: center;
+}
+
+.home__nav__options{
     /* background: green; */
     width: 90%;
-    height: 40%;
-    margin: auto;
+    margin: 25px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
 }
 
+.home__nav__social{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

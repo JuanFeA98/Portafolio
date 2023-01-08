@@ -1,0 +1,19 @@
+.prueba1{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.prueba2{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.prueba1:hover {
+    background: green;
+}
+
+.prueba2:hover + .prueba1{
+    background: blue;
+}

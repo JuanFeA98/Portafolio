@@ -42,6 +42,18 @@
     text-align: center;
 }
 
+.home__nav__name h2{
+    font-size: 35px;
+}
+
+.home__nav__name span{
+    /* color: red; */
+    font-style: italic;
+    font-weight: bold;
+    /* background: red; */
+}
+
+
 .home__nav__options{
     /* background: green; */
     width: 90%;

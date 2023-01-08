@@ -21,11 +21,11 @@ export default function Home() {
           <div className="home__nav__name">
             <p>Hi! I'm</p>
             <h2>Juan F. Martínez</h2>
-            <p>Data Scientist</p>
+            <span>Data Scientist</span>
           </div>
           <div className="home__nav__options">
-            <HomeNavEle name='Download CV' url='/'/>
-            <HomeNavEle name='Projects'/>
+            <HomeNavEle name='Download CV'/>
+            <HomeNavEle name='Projects' url='/Proyectos'/>
             <HomeNavEle name='Blog'/>
             <HomeNavEle name='Contact'/>
           </div>

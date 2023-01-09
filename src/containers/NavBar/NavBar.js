@@ -2,17 +2,39 @@ import React from 'react'
 
 import './NavBar.css'
 
-export default function NavBar() {
+export default function Proyectos() {
   return (
-    <>
-      <nav>
+    // <div className='prueba_nav'>
+      <ul className='nav'>
+        <li>
+          <a href="/Proyectos" className='nav_menu_option'>Proyectos</a>
           <ul>
-              <a href="/Proyectos"><li>Proyectos</li></a>
-              <a href="/"><li>Blog</li></a>
-              <a href="/"><li>Otros</li></a>
+            <li><a href="/">Data Science</a></li>
+            <li><a href="/">Backend</a></li>
+            <li><a href="/">Fullstack</a></li>
+            <li><a href="/">Frontend</a></li>
           </ul>
-      </nav>
-      <div className="prueba"></div>
-    </>
+        </li>
+        <li><a href="/" className='nav_menu_option'>Blog</a>
+          <ul>
+            <li><a href="/">Submenu1</a></li>
+            <li>
+              <a href="/">Submenu2</a>
+              <ul>
+                <li><a href="/">SubSubmenu1</a></li>
+                <li><a href="/">SubSubmenu2</a></li>
+                <li><a href="/">SubSubmenu3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/" className='nav_menu_option'>Otros</a>
+          <ul>
+            <li><a href="/">Submenu1</a></li>
+          </ul>
+        </li>
+      </ul>
+    // </div>
   )
 }

@@ -13,14 +13,6 @@ export default function NavBar() {
           </ul>
       </nav>
       <div className="prueba"></div>
-      <div className="projects__detail">
-        <ul>
-          <a href="/"><li>Hola</li></a>
-          <a href="/"><li>Hola</li></a>
-          <a href="/"><li>Hola</li></a>
-        
-        </ul>
-      </div>
     </>
   )
 }

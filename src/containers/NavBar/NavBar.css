@@ -23,6 +23,7 @@ ul{
     border-right: 1px solid white;
     text-align: center;
     padding-top: 10px;
+    transition: 1s;
 }
 
 .nav_menu_option:hover{
@@ -48,6 +49,7 @@ ul{
     border-top: 1px solid white;
     border-radius: 10px;
     border-radius: 0px 0px 10px 10px;
+    transition: 1s;
 }
 
 .nav li ul li a:hover{

@@ -24,10 +24,10 @@ export default function Home() {
             <span>Data Scientist</span>
           </div>
           <div className="home__nav__options">
-            <HomeNavEle name='Download CV'/>
-            <HomeNavEle name='Projects' url='/Proyectos'/>
+            <HomeNavEle name='Descargar CV'/>
+            <HomeNavEle name='Proyectos' url='/Proyectos'/>
             <HomeNavEle name='Blog'/>
-            <HomeNavEle name='Contact'/>
+            <HomeNavEle name='Contacto'/>
           </div>
           <div className="home__nav__social">
             <SocialIcon imagen={ Linkedin } url='https://www.linkedin.com/in/juanfe-martínez/'/>

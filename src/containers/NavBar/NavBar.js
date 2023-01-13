@@ -7,10 +7,10 @@ export default function Proyectos() {
     // <div className='prueba_nav'>
       <ul className='nav'>
         <li>
-          <a href="/Proyectos" className='nav_menu_option'>Proyectos</a>
+          <a href="/" className='nav_menu_option'>Proyectos</a>
           <ul>
             <li>
-              <a href="/">Data Science</a>
+              <a href="/Proyectos">Data Science</a>
               <ul>
                 <li><a href="/">SubSubmenu1</a></li>
                 <li><a href="/">SubSubmenu2</a></li>
@@ -22,7 +22,7 @@ export default function Proyectos() {
             <li><a href="/">Frontend</a></li>
           </ul>
         </li>
-        <li><a href="/" className='nav_menu_option'>Blog</a>
+        <li><a href="/Blog" className='nav_menu_option'>Blog</a>
           <ul>
             <li><a href="/">Submenu1</a></li>
             <li>

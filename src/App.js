@@ -4,10 +4,13 @@ import Layout from "./containers/Layout/Layout";
 
 import Home from "./pages/Home/Home";
 import Proyectos from "./pages/Proyectos/Proyectos";
+import Blog from "./pages/Blog/Blog";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home/> },
-  { path: "/proyectos", element:<Proyectos/> }
+  { path: "/proyectos", element:<Proyectos/> },
+  { path: "/blog", element:<Blog/> }
+
 ]);
 
 function App() {

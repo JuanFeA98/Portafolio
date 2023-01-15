@@ -2,11 +2,11 @@ import React from 'react'
 
 import './ThemeBody.css'
 
-export default function ThemeBody() {
+export default function ThemeBody({children}) {
   return (
     <div className='ThemeBody'>
         <div className="ThemeBody__Articles">
-
+          { children }
         </div>
         <div className="ThemeBody__Topics">
             <h3>Temas</h3>

@@ -1,0 +1,13 @@
+.TextComponent{
+    /* background: red; */
+    width: 88%;
+    margin: 20px auto 20px auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.TextComponent p{
+    line-height: 1.5;
+}
+

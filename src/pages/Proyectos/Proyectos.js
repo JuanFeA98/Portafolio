@@ -29,14 +29,12 @@ export default function Proyectos() {
         <CodeComponent>
           <p>
             <span className='function_type'>print</span>
-             (Hello, world!)
+             ("Hello, world!")
           </p>
           <p style={{marginLeft: '20px'}}>
             Hello, world!
           </p>
-          <p>
-            >
-          </p>
+          <p>{'>'}</p>
         </CodeComponent>
         <TextComponent>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora amet, delectus pariatur itaque asperiores quasi numquam culpa eligendi recusandae aperiam nam, maiores perspiciatis! Nisi ex unde cumque labore consectetur temporibus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem ducimus praesentium fugit velit expedita nesciunt, ad, nobis voluptatibus quibusdam corrupti similique porro architecto rem veniam officiis iste aliquam sit vel.</p>

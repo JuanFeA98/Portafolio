@@ -1,5 +1,5 @@
 .header{
-    background: #001233;
+    background: #020b1c;
     height: 50px;
     margin: 0;
     color: white;
@@ -9,7 +9,6 @@
 }
 
 .header__content{
-    /* background: blueviolet; */
     height: 100%;
     display: flex;
     align-items: center;

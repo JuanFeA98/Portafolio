@@ -1,0 +1,24 @@
+.homenav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homenav a{
+    background: #003566;
+    width: 60%;
+    margin: 10px auto;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.homenav a:hover{
+    background: #020b1c;
+    transition: 0.5s;
+}

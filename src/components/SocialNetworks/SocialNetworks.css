@@ -1,0 +1,16 @@
+.social_networks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_networks a{
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px;
+    
+}
+
+.social_networks img{
+    width: 100%;
+    border: 0;
+}

@@ -1,29 +1,20 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
 
 import './styles/index.css'
 
-import Home from './pages/Home/Home'
-import Header from './components/TestComponent/Header'
+import Layout from './components/Layout/Layout';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home/>,
-  },
-  {
-    path: "prueba",
-    element: <Header/>
-  }
-]);
+import Home from './pages/Home/Home'
+import Prueba from './components/TestComponent/Prueba'
 
 function App() {
   return (
-    <div className="App">
-      <RouterProvider router={router} />
-    </div>
+    <Layout> 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/prueba" element={<Prueba />} />
+      </Routes>
+    </Layout>
   );
 }
 

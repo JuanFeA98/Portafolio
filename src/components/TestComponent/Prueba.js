@@ -1,11 +1,11 @@
 import React from 'react'
-import './Header.css'
+import './Prueba.css'
 import { Link } from 'react-router-dom'
 
-export default function Header() {
+export default function Prueba() {
   return (
-    <div className='Header'>
-        <div>Header</div>
+    <div className='Prueba'>
+        <div>Prueba</div>
         <p>Hello, React! Again!</p>
         <Link to='/'>Go Home</Link>
     </div>

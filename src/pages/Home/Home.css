@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* z-index: 0; */
 }
 
 .home__profile{
@@ -29,6 +28,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .home__profile h1{
     margin: 0;
     font-size: 2.2rem;
@@ -41,4 +41,35 @@
 
 .home__nav{
     width: 50%;
+}
+
+@media (max-width: 600px) {
+    .home{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .home__profile img{
+        margin-top: 50px;
+        width: 250px;
+    }
+
+    .home__profile h1{
+        font-size: 1.6rem;
+        text-align: center;
+    }    
+
+    .home__profile h2{
+        font-size: 0.8rem;
+        text-align: center;
+    }    
+
+    .home__nav{
+        width: 90%;
+    }
+    
 }

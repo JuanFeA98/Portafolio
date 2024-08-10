@@ -22,3 +22,9 @@
     background: #020b1c;
     transition: 0.5s;
 }
+
+@media (max-width: 600px) {
+    .homenav{
+        margin-bottom: 50px;
+    }
+}

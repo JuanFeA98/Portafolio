@@ -16,7 +16,7 @@ export default function Home() {
               <h1>JuanFe Martinez</h1>
               <h2>FullStack Data Scientist</h2>
             </div>
-            <SocialNetworks/>
+            <SocialNetworks className='social__networks'/>
           </div>
           <div className='home__nav'>
             <HomeNav/>
